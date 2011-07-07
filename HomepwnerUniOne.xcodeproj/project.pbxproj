@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F8A7C8A13C651F000F41402 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8A7C8913C651F000F41402 /* UIKit.framework */; };
+		3F8A7C8C13C651F000F41402 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8A7C8B13C651F000F41402 /* Foundation.framework */; };
+		3F8A7C8E13C651F000F41402 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8A7C8D13C651F000F41402 /* CoreGraphics.framework */; };
+		3F8A7C9413C651F000F41402 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F8A7C9213C651F000F41402 /* InfoPlist.strings */; };
+		3F8A7C9713C651F000F41402 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A7C9613C651F000F41402 /* main.m */; };
+		3F8A7C9A13C651F000F41402 /* HomepwnerUniOneAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A7C9913C651F000F41402 /* HomepwnerUniOneAppDelegate.m */; };
+		3F8A7C9E13C651F000F41402 /* HomepwnerUniOneAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A7C9D13C651F000F41402 /* HomepwnerUniOneAppDelegate_iPhone.m */; };
+		3F8A7CA113C651F000F41402 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8A7C9F13C651F000F41402 /* MainWindow_iPhone.xib */; };
+		3F8A7CA513C651F000F41402 /* HomepwnerUniOneAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A7CA413C651F000F41402 /* HomepwnerUniOneAppDelegate_iPad.m */; };
+		3F8A7CA813C651F000F41402 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8A7CA613C651F000F41402 /* MainWindow_iPad.xib */; };
+		3F8A7CC113C6529A00F41402 /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A7CBE13C6529A00F41402 /* ItemsViewController.m */; };
+		3F8A7CC213C6529A00F41402 /* Possession.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A7CC013C6529A00F41402 /* Possession.m */; };
+		3F8A7CC413C6557D00F41402 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 3F8A7CC313C6557D00F41402 /* README */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F8A7C8513C651F000F41402 /* HomepwnerUniOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomepwnerUniOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8A7C8913C651F000F41402 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F8A7C8B13C651F000F41402 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F8A7C8D13C651F000F41402 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F8A7C9113C651F000F41402 /* HomepwnerUniOne-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomepwnerUniOne-Info.plist"; sourceTree = "<group>"; };
+		3F8A7C9313C651F000F41402 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F8A7C9513C651F000F41402 /* HomepwnerUniOne-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HomepwnerUniOne-Prefix.pch"; sourceTree = "<group>"; };
+		3F8A7C9613C651F000F41402 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F8A7C9813C651F000F41402 /* HomepwnerUniOneAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomepwnerUniOneAppDelegate.h; sourceTree = "<group>"; };
+		3F8A7C9913C651F000F41402 /* HomepwnerUniOneAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomepwnerUniOneAppDelegate.m; sourceTree = "<group>"; };
+		3F8A7C9C13C651F000F41402 /* HomepwnerUniOneAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HomepwnerUniOneAppDelegate_iPhone.h; path = iPhone/HomepwnerUniOneAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		3F8A7C9D13C651F000F41402 /* HomepwnerUniOneAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HomepwnerUniOneAppDelegate_iPhone.m; path = iPhone/HomepwnerUniOneAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		3F8A7CA013C651F000F41402 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		3F8A7CA313C651F000F41402 /* HomepwnerUniOneAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HomepwnerUniOneAppDelegate_iPad.h; path = iPad/HomepwnerUniOneAppDelegate_iPad.h; sourceTree = "<group>"; };
+		3F8A7CA413C651F000F41402 /* HomepwnerUniOneAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HomepwnerUniOneAppDelegate_iPad.m; path = iPad/HomepwnerUniOneAppDelegate_iPad.m; sourceTree = "<group>"; };
+		3F8A7CA713C651F000F41402 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		3F8A7CBD13C6529A00F41402 /* ItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsViewController.h; sourceTree = "<group>"; };
+		3F8A7CBE13C6529A00F41402 /* ItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsViewController.m; sourceTree = "<group>"; };
+		3F8A7CBF13C6529A00F41402 /* Possession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Possession.h; sourceTree = "<group>"; };
+		3F8A7CC013C6529A00F41402 /* Possession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Possession.m; sourceTree = "<group>"; };
+		3F8A7CC313C6557D00F41402 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F8A7C8213C651F000F41402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8A7C8A13C651F000F41402 /* UIKit.framework in Frameworks */,
+				3F8A7C8C13C651F000F41402 /* Foundation.framework in Frameworks */,
+				3F8A7C8E13C651F000F41402 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F8A7C7A13C651F000F41402 = {
+			isa = PBXGroup;
+			children = (
+				3F8A7CC313C6557D00F41402 /* README */,
+				3F8A7C8F13C651F000F41402 /* HomepwnerUniOne */,
+				3F8A7C8813C651F000F41402 /* Frameworks */,
+				3F8A7C8613C651F000F41402 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F8A7C8613C651F000F41402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A7C8513C651F000F41402 /* HomepwnerUniOne.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F8A7C8813C651F000F41402 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A7C8913C651F000F41402 /* UIKit.framework */,
+				3F8A7C8B13C651F000F41402 /* Foundation.framework */,
+				3F8A7C8D13C651F000F41402 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F8A7C8F13C651F000F41402 /* HomepwnerUniOne */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A7C9813C651F000F41402 /* HomepwnerUniOneAppDelegate.h */,
+				3F8A7C9913C651F000F41402 /* HomepwnerUniOneAppDelegate.m */,
+				3F8A7CBA13C6522700F41402 /* Possession */,
+				3F8A7CBC13C6524000F41402 /* ItemsViewController */,
+				3F8A7C9B13C651F000F41402 /* iPhone */,
+				3F8A7CA213C651F000F41402 /* iPad */,
+				3F8A7C9013C651F000F41402 /* Supporting Files */,
+			);
+			path = HomepwnerUniOne;
+			sourceTree = "<group>";
+		};
+		3F8A7C9013C651F000F41402 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A7C9113C651F000F41402 /* HomepwnerUniOne-Info.plist */,
+				3F8A7C9213C651F000F41402 /* InfoPlist.strings */,
+				3F8A7C9513C651F000F41402 /* HomepwnerUniOne-Prefix.pch */,
+				3F8A7C9613C651F000F41402 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F8A7C9B13C651F000F41402 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A7C9C13C651F000F41402 /* HomepwnerUniOneAppDelegate_iPhone.h */,
+				3F8A7C9D13C651F000F41402 /* HomepwnerUniOneAppDelegate_iPhone.m */,
+				3F8A7C9F13C651F000F41402 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		3F8A7CA213C651F000F41402 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A7CA313C651F000F41402 /* HomepwnerUniOneAppDelegate_iPad.h */,
+				3F8A7CA413C651F000F41402 /* HomepwnerUniOneAppDelegate_iPad.m */,
+				3F8A7CA613C651F000F41402 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		3F8A7CBA13C6522700F41402 /* Possession */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A7CBF13C6529A00F41402 /* Possession.h */,
+				3F8A7CC013C6529A00F41402 /* Possession.m */,
+			);
+			name = Possession;
+			sourceTree = "<group>";
+		};
+		3F8A7CBC13C6524000F41402 /* ItemsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3F8A7CBD13C6529A00F41402 /* ItemsViewController.h */,
+				3F8A7CBE13C6529A00F41402 /* ItemsViewController.m */,
+			);
+			name = ItemsViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F8A7C8413C651F000F41402 /* HomepwnerUniOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8A7CAB13C651F000F41402 /* Build configuration list for PBXNativeTarget "HomepwnerUniOne" */;
+			buildPhases = (
+				3F8A7C8113C651F000F41402 /* Sources */,
+				3F8A7C8213C651F000F41402 /* Frameworks */,
+				3F8A7C8313C651F000F41402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomepwnerUniOne;
+			productName = HomepwnerUniOne;
+			productReference = 3F8A7C8513C651F000F41402 /* HomepwnerUniOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F8A7C7C13C651F000F41402 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3F8A7C7F13C651F000F41402 /* Build configuration list for PBXProject "HomepwnerUniOne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F8A7C7A13C651F000F41402;
+			productRefGroup = 3F8A7C8613C651F000F41402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F8A7C8413C651F000F41402 /* HomepwnerUniOne */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F8A7C8313C651F000F41402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8A7C9413C651F000F41402 /* InfoPlist.strings in Resources */,
+				3F8A7CA113C651F000F41402 /* MainWindow_iPhone.xib in Resources */,
+				3F8A7CA813C651F000F41402 /* MainWindow_iPad.xib in Resources */,
+				3F8A7CC413C6557D00F41402 /* README in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F8A7C8113C651F000F41402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8A7C9713C651F000F41402 /* main.m in Sources */,
+				3F8A7C9A13C651F000F41402 /* HomepwnerUniOneAppDelegate.m in Sources */,
+				3F8A7C9E13C651F000F41402 /* HomepwnerUniOneAppDelegate_iPhone.m in Sources */,
+				3F8A7CA513C651F000F41402 /* HomepwnerUniOneAppDelegate_iPad.m in Sources */,
+				3F8A7CC113C6529A00F41402 /* ItemsViewController.m in Sources */,
+				3F8A7CC213C6529A00F41402 /* Possession.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F8A7C9213C651F000F41402 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8A7C9313C651F000F41402 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3F8A7C9F13C651F000F41402 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8A7CA013C651F000F41402 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		3F8A7CA613C651F000F41402 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8A7CA713C651F000F41402 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F8A7CA913C651F000F41402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F8A7CAA13C651F000F41402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F8A7CAC13C651F000F41402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomepwnerUniOne/HomepwnerUniOne-Prefix.pch";
+				INFOPLIST_FILE = "HomepwnerUniOne/HomepwnerUniOne-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F8A7CAD13C651F000F41402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomepwnerUniOne/HomepwnerUniOne-Prefix.pch";
+				INFOPLIST_FILE = "HomepwnerUniOne/HomepwnerUniOne-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F8A7C7F13C651F000F41402 /* Build configuration list for PBXProject "HomepwnerUniOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8A7CA913C651F000F41402 /* Debug */,
+				3F8A7CAA13C651F000F41402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8A7CAB13C651F000F41402 /* Build configuration list for PBXNativeTarget "HomepwnerUniOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8A7CAC13C651F000F41402 /* Debug */,
+				3F8A7CAD13C651F000F41402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F8A7C7C13C651F000F41402 /* Project object */;
+}
