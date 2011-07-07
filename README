@@ -11,7 +11,7 @@ This project is the Homepwner application described in chapter 10 of the text.  
 This code has been deployed to an iPhone 4 and iPad I and works sucessfully.
 
 ---
-Initial PUSH - July 6, 2011
+Initial PUSH - July 7, 2011
 
 This PUSH defines the initial foundation for the application. 
 This code is identical to the HomepwnerOne with the exception that it supportd iPhone AND iPad with one code base.  
